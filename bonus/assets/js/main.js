@@ -26,9 +26,8 @@ console.log(anno);
 //stampo anno nel Dom nell'elemento con id year
 document.getElementById('year').innerHTML = "ANNO DI NASCITA: " + anno;
 
-
 //creo password unendo le quattro variabili
 var password = nome + cognome + colore + anno;
 
 //stampo password nel DOM nell'elemento con id new-password
-document.getElementById('new-password').innerHTML = "La tua nuova password è: " + password;
+document.getElementById('new-password').innerHTML = "PASSWORD GENERATA: " + password;

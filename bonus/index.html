@@ -5,19 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Password Generator</title>
-
-  <link rel="stylesheet" href="./assets/css/master.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <h1>Password Generator</h1>
+    <img class="boolean-logo" src="./assets/img/logo-boolean.png" alt="">
+    <h1>PASSWORD GENERATOR</h1>
+    <img  class="padlock"src="./assets/img/logo.png" alt="">
   </header>
-  <p id="name"></p>
-  <p id="surname"></p>
-  <p id="favourite-color"></p>
-  <p id="year"></p>
-  <p id="new-password"></p>
-
+  <!-- MAIN -->
+  <main>
+    <section class="card">
+      <div class="info">
+        <div id="name"></div>
+        <div id="surname"></div>
+        <div id="favourite-color"></div>
+        <div id="year"></div>
+      </div>
+    </section>
+    <section class="result">
+      <p id="new-password"></p>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <h5>powered by Andrea Marangon</h5>
+  </footer>
 <script src="./assets/js/main.js" charset="utf-8"></script>
 </body>
 </html>
